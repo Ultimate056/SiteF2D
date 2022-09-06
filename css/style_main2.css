@@ -1,0 +1,168 @@
+
+body
+{
+	margin: 0px 0px 0px 0px;
+}
+.main {
+	background-image: url(https://www.nastol.com.ua/download.php?img=201311/2560x1600/nastol.com.ua-66304.jpg);
+	width:100%;
+	height:auto;
+}
+
+.header{
+	width: auto;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.header hr
+{
+	margin: 0 15% 0 12%;
+}
+
+.shapka{
+	height:200px;
+	width: 100%;
+}
+.shapka img{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 12%;
+}
+
+.banner
+{
+	height: 800px;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+.banner_foto
+{
+	width: 73.6%;
+	height: 800px;
+	margin: 0px 0px 0px 12%;
+	background-image: url(https://sun9-56.userapi.com/impg/vVV8bFypMAvaFVllq4Rk2jkOdJXf4JkymlESIg/AryAVnmMa04.jpg?size=1450x935&quality=96&proxy=1&sign=ec127183882a574ba1d02ea39e85f3c5&type=album);
+	opacity: 0.9;
+
+}
+
+
+.banner img
+{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0;
+}
+
+input[name="registration"]
+{
+	background-color: orange;
+	color: white;
+	width: 30%;
+	padding: 8px;
+	font-size: 18px;
+	margin-left: 25px;
+	border: 1px solid white;
+}
+input[name="view"]
+{
+	background-color: green;
+	color: white;
+	width: 30%;
+	padding: 8px;
+	font-size: 18px;
+	margin-left: 25px;
+	border: 1px solid white;
+}
+
+
+.menu 
+{
+	width: 73.6%;
+	height: 50px;
+	margin: 0px 0px 0px 12%;
+	background-image: url(../img/f.jpg);
+}
+
+ul.men {
+	float:right;
+	margin: 0.5% 12% 0 50px;
+}
+ul.men li
+{
+	float: left;
+	padding: 0 0px 0 6px;
+	list-style: none;
+	margin: 1px 2px 0 0;
+}
+ul.men li a {
+	font: normal 120% 'trebuchet ms', sans-serif;
+	display: block;
+	height:20px;
+	padding: 6px 35px 5px 28px;
+	color: #fff;
+	text-decoration: none;
+}
+ul.men li.selected a {
+	color: #0000c9;
+}
+ul.men li a:hover {
+	color:#e4ec04;
+}
+ul {
+	margin: 0px 0 0px 0px;
+}
+ul li {
+	margin: 0 0 6px 0;
+	padding: 0 0 4px 5px;
+}
+
+.Text
+{
+	color:white;
+	text-align: center;
+	margin: 0 0 0 0;
+	padding: 10% 0 0 0;
+}
+.Text h1,h2
+{
+	padding: 0 0 0 0;
+}
+
+.footer
+{
+	height: 200px;
+	width: 73.6%;
+	opacity: 0.9;
+	margin: 0px 0px 0px 12%;
+	background-image: url(../img/f.jpg);
+}
+
+.footer img
+{
+	text-align:center;
+	width: auto;
+	height: auto;
+	padding: 0 15px 0 0;
+}
+
+.vizit
+{
+	margin-right: 10%;
+	float:right;
+	font-size: 18px;
+	color: white;
+
+}
+
+
+/*CSS Mobile*/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+	.header {
+		background-color: #257965;
+		min-width: 100%;
+		height: 20%;
+		text-align: center;
+	}
+	
+}
